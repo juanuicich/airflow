@@ -16,7 +16,7 @@
 # under the License.
 
 from airflow.upgrade.rules import get_rules
-from airflow.upgrade.rules.conn_id.conn_type_is_not_nullable import ConnTypeIsNotNullableRule
+from airflow.upgrade.rules.db.conn_type_is_not_nullable import ConnTypeIsNotNullableRule
 from airflow.upgrade.rules.base_rule import BaseRule
 
 
